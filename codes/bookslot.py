@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 threshold = 5
 from firebase import firebase
-firebase = firebase.FirebaseApplication("https://hackitout-6ee0b.firebaseio.com/")
+firebase = firebase.FirebaseApplication("https://.firebaseio.com/")
 def bookslot(plate_number ):
     csv_file = pd.read_excel("plat_to_model.xlsx")
         
